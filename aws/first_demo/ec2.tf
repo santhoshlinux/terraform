@@ -1,9 +1,9 @@
 resource "aws_instance" "myawsserver" {
   ami = "ami-0603cbe34fd08cb81"
-  instance_type = "t2.nano"
+  instance_type = "t3.micro"
 
   tags = {
-    Name = "Gagandeep-aws-ec2-instance-vodafone"
+    Name = "Gagandeep-aws-ec2-instance-accenture"
     Env = "test"
   }
 }
